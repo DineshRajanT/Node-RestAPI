@@ -6,7 +6,7 @@ Installation
 
 npm install
 Configuration (database)
-app.js
+main.js
 
     host: 'localhost',
     user: 'root',
@@ -14,4 +14,18 @@ app.js
     port : 3306, //port mysql
     database:'nodeapp'	
     
-You're gonna need to create a DB named 'nodeapp' and create a table
+You're gonna need to create a DB named 'nodeapp' and create a table named detals....
+
+In your Mysql terminal type the following query
+
+SQL Query:
+
+create table details(
+        QuoteID INT  auto_increment  primary key,
+        QuoteDate DATETIME, QuoteNumber INT, 
+        CustomerName varchar(20),
+        SalesPerson varchar(30),
+        QuotaStatus varchar(20) ,
+        QuotaInfo JSON,QuotaSummary JSON);
+
+
