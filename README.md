@@ -1,6 +1,6 @@
 # Node-RestAPI
 A RestAPI to interact with the database via NodeJS
-This is a very basic example of CRUD in Node.js, mySQL.
+This is a very basic example of a app in Node.js, mySQL.
 
 Installation
 
